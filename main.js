@@ -30,12 +30,16 @@ for(i = 0; i < students.length; i++){
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
-
+for(let i = grades.length - 1; i >= 0; i--){
+  console.log(grades[i]);
 
 // Challenge 3
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
 
+for(let i = 0; i < positiveNumbers.length; i++){
+  if(positiveNumbers[5])
+}
 
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
